@@ -3,9 +3,10 @@
 	"packages" : [
         {
             "name" : "First Steps",
+            "description" : "First Steps TESTS",
             "author": "Stephan Ahlf",
             "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-environment.json",
-            "program" : "",
+            "program" : null,
             "labels" : [ "testing" ]
         }
     ]
