@@ -1,6 +1,6 @@
 {
 	"schema_version": "3.0.0",
 	"repositories": [
-		 "https://github.com/s-a/examples.try.js/blob/master/first%20steps.json"
+		 "raw.githubusercontent.com/s-a/examples.try.js/master/first%20steps.json"
 	]
 }
