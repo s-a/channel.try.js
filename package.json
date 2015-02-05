@@ -17,6 +17,7 @@
   "devDependencies": {
     "mocha": "1.18.2",
     "should": "3.1.4",
-    "jshint": ""
+    "jshint": "",
+    "valid-url": ""
   }
 }
