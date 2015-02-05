@@ -7,6 +7,7 @@
             "author": "Stephan Ahlf",
             "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-environment.json",
             "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-program.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-tests.js",
             "labels" : [ "First Steps" ]
         }
     ]
