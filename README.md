@@ -1,3 +1,5 @@
+<img src="https://travis-ci.org/s-a/channel.try.js.png" />
+
 The channel.json, repository.json and repository/*.json files contain a list of repositories and packages for use with TRY.js.
 
 The channel.json file is published at https://github.com/s-a/channel.try.js/channel.json and is included with TRY.js as the default channel.
