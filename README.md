@@ -1,9 +1,6 @@
 
 [<img src="https://travis-ci.org/s-a/channel.try.js.png" />](https://travis-ci.org/s-a/channel.try.js "Test state")
 
-Check the build state at https://travis-ci.org/s-a/channel.try.js
-
-
 The channel.json, repository.json and repository/*.json files contain a list of repositories and packages for use with TRY.js.
 
 
