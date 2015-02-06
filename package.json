@@ -3,7 +3,7 @@
   "copyright": "ALL RIGHTS RESERVED",
   "preferGlobal": false,
   "name": "channel.try.js",
-  "description": "Source code publishing for https://bitbucket.org/sa77/try.js",
+  "description": "Source code publishing channel for https://github.com/s-a/TRY.js",
   "repository" : "https://github.com/s-a/channel.try.js",
   "version": "0.0.1",
   "scripts": {
