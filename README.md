@@ -9,3 +9,23 @@ The channel.json file is published at https://github.com/s-a/channel.try.js/chan
 
 Please be sure to follow the instructions to help the process of adding your package or repository go smoothly.
 
+So how to add sources to this channel?  
+
+ - Fork this repository
+ - Clone your forked repository
+ - Open the file channel.json and add a new object tree to ```packages```
+
+```
+       {
+            "name" : "First steps",
+            "description" : "A hello world package for the first steps with TRY.js containing a very simple environment setup, a synchronious robot program and a test suite.",
+            "author": "Stephan Ahlf",
+            "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-environment.json",
+            "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-program.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-tests.js",
+            "labels" : [ "test", "sync" ]
+        }
+```
+
+ - Run ```npm test``` before each commit! You will need node js to do this. After installation of node you need to install the test libraries via ```npm install```
+ - Commit and push your work and open a ```Pull Request``` on GitHub
