@@ -11,6 +11,7 @@ Please be sure to follow the instructions to help the process of adding your pac
 
 So how to add sources to this channel?  
 
+ - Install git client tools
  - Fork this repository
  - Clone your forked repository
  - Open the file channel.json and add a new object tree to ```packages```
@@ -27,5 +28,5 @@ So how to add sources to this channel?
         }
 ```
 
- - Run ```npm test``` before each commit! You will need node js to do this. After installation of node you need to install the test libraries via ```npm install```
+ - Run ```npm test``` before each ```git push```! You will need [Node.js](http://nodejs.org/) to do this. After installation of node you need to install the test libraries via ```npm install```
  - Commit and push your work and open a ```Pull Request``` on GitHub
