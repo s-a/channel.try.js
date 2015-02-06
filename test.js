@@ -1,4 +1,4 @@
- var
+var
 	fs = require("fs"),
 	assert = require("assert"),
 	should = require("should"),
@@ -8,12 +8,8 @@
 	validUrl = require('valid-url');
 
 
-
-
 describe('channel.json should be valid against .jshintrc', function(){
-	
 	it('should have no errors', function(done){
-
 		JSHINT(source, options);
 		var report = JSHINT.data();
 
@@ -27,8 +23,6 @@ describe('channel.json should be valid against .jshintrc', function(){
 		} 
 		done();
 	});
-
-
 });
 
 
@@ -40,43 +34,41 @@ describe('channel.json should be valid', function(){
 
 		should.exist(settings.packages);
 		for (var p = 0; p < packages.length; p++) {
-			var package = packages[p];
-			should.exist(package.name);
-			should.exist(package.description);
-			should.exist(package.author);
-			should.exist(package.environment);
+			var pack = packages[p];
+			should.exist(pack.name);
+			should.exist(pack.description);
+			should.exist(pack.author);
+			should.exist(pack.environment);
 		}
 
 		done();
 	});
 
 	it('should contain good information fields', function(done){
-
 		for (var p = 0; p < packages.length; p++) {
-			var package = packages[p];
-			package.name.length.should.be.above(5);
-			package.description.length.should.be.above(20);
-			package.author.length.should.be.above(2);
+			var pack = packages[p];
+			pack.name.length.should.be.above(5);
+			pack.name.length.should.be.below(60);
+			pack.description.length.should.be.above(20);
+			pack.description.length.should.be.below(180);
+			pack.author.length.should.be.above(2);
 		}
-
 		done();
 	});
 
 	it('should contain valid web address fields', function(done){
-
 		for (var p = 0; p < packages.length; p++) {
-			var package = packages[p];
-			validUrl.isUri(package.environment).should.not.be.undefined;
+			var pack = packages[p];
+			validUrl.isUri(pack.environment).should.not.be.undefined;
 
-			if (package.program){
-				validUrl.isUri(package.program).should.not.be.undefined;
+			if (pack.program){
+				validUrl.isUri(pack.program).should.not.be.undefined;
 			}
 
-			if (package.test){
-				validUrl.isUri(package.test).should.not.be.undefined;
+			if (pack.test){
+				validUrl.isUri(pack.test).should.not.be.undefined;
 			}
 		}
-
 		done();
 	});
 
