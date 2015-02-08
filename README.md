@@ -14,6 +14,7 @@ So how to add sources to this channel?
  - Install git client tools
  - Fork this repository
  - Clone your forked repository
+ - create and checkout a new branch
  - Open the file channel.json and add a new object tree to ```packages```
 
 ```
