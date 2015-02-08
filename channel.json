@@ -1,6 +1,6 @@
 {
-	"schema_version": "3.0.0",
-	"packages" : [
+    "schema_version": "3.0.0",
+    "packages" : [
         {
             "name" : "First steps",
             "description" : "A hello world package for the first steps with TRY.js containing a very simple environment setup, a synchronious robot program and a test suite.",

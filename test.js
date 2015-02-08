@@ -86,4 +86,8 @@ describe('channel.json should be valid', function(){
 		done();
 	});
 
+	it('should not contain tabs', function(done){
+		source.replace(/\t/g).should.equal(source);
+		done();
+	});
 });
