@@ -20,6 +20,15 @@
             "labels" : [ "demo", "sync" ]
         },
         {
+            "name" : "Unknown environment",
+            "description" : "This demo shows the correct way to move in an unknown environment. The program tests if the robot can move to avoid a wall crash.",
+            "author": "Stephan Ahlf",
+            "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/run-and-touch-the-wall.json",
+            "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/run-and-touch-the-wall.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/run-and-touch-the-wall__test.js",
+            "labels" : [ "demo", "sync", "async", "sensor" ]
+        },
+        {
             "name" : "Robo-Farmer",
             "description" : "This demo shows a more complex program code. For example extend the Robot methods and the creation of loops.",
             "author": "Stephan Ahlf",
