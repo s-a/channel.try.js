@@ -20,6 +20,15 @@
             "labels" : [ "demo", "sync" ]
         },
         {
+            "name" : "Robo-Farmer",
+            "description" : "This demo shows a more complex program code. For example extend the Robot methods and the creation of loops.",
+            "author": "Stephan Ahlf",
+            "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/robo-farmer.json",
+            "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/robo-farmer.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/robo-farmer__tests.js",
+            "labels" : [ "demo", "sync", "async" ]
+        },
+        {
             "name" : "Challenge: Mission impossible",
             "description" : "Find a way out and bring the robot into his energy station.",
             "author": "Stephan Ahlf",
