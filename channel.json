@@ -43,6 +43,7 @@
             "author": "Stephan Ahlf",
             "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/gravity.json",
             "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/gravity.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/gravity__test.js",
             "labels" : [ "demo", "sync", "async" ]
         },
         {
