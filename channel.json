@@ -25,7 +25,7 @@
             "author": "Stephan Ahlf",
             "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/beam-me-up-scotty.json",
             "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/beam-me-up-scotty.js",
-            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/beam-me-up-scotty__tests.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/beam-me-up-scotty__test.js",
             "labels" : [ "demo", "sync" ]
         },
         {
