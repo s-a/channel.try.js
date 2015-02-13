@@ -29,6 +29,15 @@
             "labels" : [ "demo", "sync", "async", "sensor" ]
         },
         {
+            "name" : "Low Energy",
+            "description" : "A robot with limited energy capacity want to go home. ",
+            "author": "Stephan Ahlf",
+            "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/low-energy.json",
+            "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/low-energy.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/low-energy__tests.js",
+            "labels" : [ "demo", "sync" ]
+        },
+        {
             "name" : "Robo-Farmer",
             "description" : "This demo shows a more complex program code. For example extend the Robot methods and the creation of loops.",
             "author": "Stephan Ahlf",
