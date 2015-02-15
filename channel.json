@@ -2,15 +2,6 @@
     "schema_version": "3.0.0",
     "packages" : [
         {
-            "name" : "First steps",
-            "description" : "A hello world package for the first steps with TRY.js containing a very simple environment setup, a synchronious robot program and a test suite.",
-            "author": "Stephan Ahlf",
-            "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-environment.json",
-            "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-program.js",
-            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/basic-tests.js",
-            "labels" : [ "Demo", "sync" ]
-        },
-        {
             "name" : "Save the flowers",
             "description" : "This demo shows a simple mission with a more advanced test suite.",
             "author": "Stephan Ahlf",
