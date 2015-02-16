@@ -56,6 +56,15 @@
             "labels" : [ "demo", "sync", "async" ]
         },
         {
+            "name" : "Push the button",
+            "description" : "A very simple example demonstrating how to move walls.",
+            "author": "Stephan Ahlf",
+            "environment" : "https://github.com/s-a/examples.try.js/master/first%20steps/push-the-button.json",
+            "program" : "https://github.com/s-a/examples.try.js/master/first%20steps/push-the-button.js",
+            "test" : "https://github.com/s-a/examples.try.js/master/first%20steps/push-the-button__test.js",
+            "labels" : [ "demo", "sync" ]
+        },
+        {
             "name" : "Gravity",
             "description" : "A very simple example demonstrating the environment' s gravity.",
             "author": "Stephan Ahlf",
